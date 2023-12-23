@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: sa
+    url: jdbc:h2:~/test
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+    
+app:
+  messages:
+    contactSaveSuccess: Contact Saved
+    contactSaveFail   : Failed to Save Contact
+    contactDeleteSucc : Contact Delete Successfully 
+    contactDeleteFail : Failed to Delete Contact
+    
+    
+    
+        
